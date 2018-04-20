@@ -52,42 +52,46 @@
         </section>
        
         <section class="profils section">
-            <div class="columns">
-                <div class="content_profil column is-5">
-                    <span class="titre-categ"><span class="small-green"><?php the_field('titre_profil_vert'); ?></span> 
-                    <?php the_field('titre_profil_gris'); ?></span>
-                    <?php the_field('description'); ?> 
-                    <div class="form_profil columns">
-                        <form action="" class="column is-7 is-10-tablet is-12-mobile">
-                            <input type="text" class="callback_name" placeholder="Votre nom/prénom"/>
-                            <input type="text" class="callback_phonenumber" placeholder="Votre numéro de téléphone"/>
-                            <input type="submit" value="Être rappelé" class="button green button-callme">
-                        </form>
-                    </div>
-                </div>
-                <div class="column is-1"></div>
-                <div class="anim-profil column is-5">
-                    <div class="bg_anim"></div>
-                    <?php if( have_rows('vignette_profil') ):?>
-                    <div class="liste-profils">
-                        <?php while ( have_rows('vignette_profil') ) : the_row();?>
-                        <div class="profil">                            
-                            <a href="<?php the_sub_field('lien_profil'); ?>">
-                                <div class="icon-anim-profil">
-                                <?php $icone_profil = get_sub_field('icone_profil');
-                                if( !empty($icone_profil) ): ?>
-                                    <img src="<?php echo $icone_profil['url']; ?>" alt="<?php echo $icone_profil['alt']; ?>" />
-                                    <?php endif; ?>
-                                </div>
-                                <span class="small"><?php the_sub_field('intitule_profil'); ?></span>
-                            </a>
+                
+            <div class="container">
+                <div class="columns">
+                    <div class="content_profil column is-5">
+                        <span class="titre-categ"><span class="small-green"><?php the_field('titre_profil_vert'); ?></span> 
+                        <?php the_field('titre_profil_gris'); ?></span>
+                        <?php the_field('description'); ?> 
+                        <div class="form_profil columns">
+                            <form action="" class="column is-7 is-10-tablet is-12-mobile">
+                                <input type="text" class="callback_name" placeholder="Votre nom/prénom"/>
+                                <input type="text" class="callback_phonenumber" placeholder="Votre numéro de téléphone"/>
+                                <input type="submit" value="Être rappelé" class="button green button-callme">
+                            </form>
                         </div>
-                        <?php endwhile; ?>
                     </div>
-                    <?php else : endif; ?>
+                    <div class="column is-1"></div>
+                    <div class="anim-profil column is-5">
+                        <div class="bg_anim"></div>
+                        <?php if( have_rows('vignette_profil') ):?>
+                        <div class="liste-profils">
+                            <?php while ( have_rows('vignette_profil') ) : the_row();?>
+                            <div class="profil">                            
+                                <a href="<?php the_sub_field('lien_profil'); ?>">
+                                    <div class="icon-anim-profil">
+                                    <?php $icone_profil = get_sub_field('icone_profil');
+                                    if( !empty($icone_profil) ): ?>
+                                        <img src="<?php echo $icone_profil['url']; ?>" alt="<?php echo $icone_profil['alt']; ?>" />
+                                        <?php endif; ?>
+                                    </div>
+                                    <span class="small"><?php the_sub_field('intitule_profil'); ?></span>
+                                </a>
+                            </div>
+                            <?php endwhile; ?>
+                        </div>
+                        <?php else : endif; ?>
+                    </div>
+                    <div class="column is-1"></div>
                 </div>
-                <div class="column is-1"></div>
             </div>
+
         </section>
         <section class="accroche bg-grey section">
            <div class="container">

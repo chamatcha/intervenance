@@ -597,6 +597,7 @@ main{
             position:relative;
             padding:100px 0 100px 0;
             line-height:1.3rem;
+
             .svg-block {
                 width:100%;
                 position: absolute;
@@ -609,7 +610,6 @@ main{
                 display: flex;
                 justify-content: space-around;
                 li{
-                    display:block;
                     list-style-type: none;
                     color:#fff;
                     font-family:$mainFont;
