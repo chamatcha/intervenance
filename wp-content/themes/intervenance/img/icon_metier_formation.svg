@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Calque_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 632.9 552.9"
+   style="enable-background:new 0 0 632.9 552.9;"
+   xml:space="preserve"
+   sodipodi:docname="icon_formation.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata21"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs19" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview17"
+   showgrid="false"
+   inkscape:zoom="0.42684028"
+   inkscape:cx="316.45001"
+   inkscape:cy="276.45001"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Calque_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:none;stroke:#1D1D1B;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g
+   id="g14">
+	<polygon
+   class="st0"
+   points="319.7,339.8 14.2,187.1 319.7,47.9 617.2,193.9  "
+   id="polygon4" />
+	<g
+   id="g10">
+		<path
+   class="st0"
+   d="M321,506.9c146.1,0,180.3-70.9,180.3-70.9V251.1"
+   id="path6" />
+		<path
+   class="st0"
+   d="M135.2,251.1V436c0,0,34.2,70.9,180.3,70.9"
+   id="path8" />
+	</g>
+	<line
+   class="st0"
+   x1="617.4"
+   y1="454.4"
+   x2="617.4"
+   y2="217"
+   id="line12" />
+</g>
+</svg>

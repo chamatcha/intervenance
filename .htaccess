@@ -1,0 +1,22 @@
+
+Deny From All
+Allow from 109.190.151.50 10.0.9.1 37.71.66.82 88.168.130.168 88.168.130.168 93.24.102.97 109.2.27.15 37.71.66.82  90.93.27.174 127.0.0.1 
+
+
+RewriteCond %{REQUEST_URI} !^/wp-admin [NC]
+RewriteCond %{QUERY_STRING} author=\d
+RewriteRule ^ /? [L,R=301]
+
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
